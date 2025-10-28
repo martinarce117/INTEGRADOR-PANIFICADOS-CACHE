@@ -9,7 +9,7 @@ import { UsuariosModule } from '../usuarios/usuarios.module';
   imports: [
     UsuariosModule,
     JwtModule.register({
-      secret: 'jwt_secret_key', 
+      secret: 'CLAVE_SECRETA_SUPER_SEGURA', 
       signOptions: { expiresIn: '2h' },
     }),
   ],

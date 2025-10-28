@@ -5,6 +5,7 @@ import * as bcrypt from 'bcrypt';
 
 @Injectable()
 export class AuthService {
+  [x: string]: any;
   constructor(
     private usuariosService: UsuariosService,
     private jwtService: JwtService,
